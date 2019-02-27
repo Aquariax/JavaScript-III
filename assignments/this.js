@@ -11,10 +11,7 @@
 function Bird (type,name,sound){ 
     this.type= type,
     this.name= name,
-    this.sound= sound,
-    this.speak= function(){
-        console.log`${this.sound}`
-    }
+    this.sound= sound
 } 
 
 // Principle 1
